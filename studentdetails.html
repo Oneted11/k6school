@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>student details</title>
+	<style>
+	input{margin:7px;}
+		ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #333;
+	}
+
+	li {
+	    float: left;
+	}
+
+	li a {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+	/* Change the link color to #111 (black) on hover */
+	li a:hover {
+	    background-color: #111;
+	}
+	</style>
+</head>
+<body>
+<h1>K-6 High School</h1>
+<ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a href="login.html">login</a></li>
+</ul>
+<form>
+<fieldset><legend>student information</legend>
+	first name:  <input type="text" name="fname">
+	last name:  <input type="text" name="lname"><br><br>
+	Date of Birth: <input type="date/time" name="dob"><br><br>
+	female: <input type="radio" name="gender" value="female">
+	male: <input type="radio" name="gender" value="male">
+	<input type="submit" name="submit">
+
+</fieldset>
+<fieldset><legend>perfomance</legend>
+	English:<input type="number" name="english"><br>
+	Mathematics:<input type="number" name="math"><br>
+	Kiswahili:<input type="number" name="swa"><br>
+	Biology:<input type="number" name="bio"><br>
+	Chemistry:<input type="number" name="chem"><br>
+	Physics:<input type="number" name="phyc"><br>
+	History:<input type="number" name="histo"><br>
+	Geography:<input type="number" name="geo"><br>
+	Religious Education:<input type="number" name="RE"><br>
+	<input type="submit" name="submit">
+</fieldset>
+
+</form>
+
+</body>
+</html>
