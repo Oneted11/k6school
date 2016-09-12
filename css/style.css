@@ -1,0 +1,15 @@
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background-image: url("http://mdbootstrap.com/images/regular/city/img%20(17).jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body,

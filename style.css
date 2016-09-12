@@ -1,6 +1,8 @@
-body {
-	background-image: url(images/background.jpg);
+html,h1,{
+	color: white;
 }
+
+
 	input{margin:7px;}
 		ul {
 	    list-style-type: none;
@@ -27,15 +29,12 @@ body {
 	    background-color: #111;
 	}
 	contact_form{
-			padding:16px;			
+			padding: 14px 16px;			
 
 	}
 	ol{
 		list-style-type: upper-roman;
 	}
 	p{
-		padding: 16px;
+		padding: 34px;
 	}
-	footer { 
-    display: block;
-}
